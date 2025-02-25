@@ -1,0 +1,67 @@
+.landing-page {
+    background-color: #9B86BD;
+    height: 100vh;
+}
+
+.navbar {
+    height: 60px;
+    width: 96%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    margin: 0 25px;
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.web-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sign-in {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #E1AFD1;
+    font-size: 20px;
+    margin-left: 650px;
+}
+
+.sign-up {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #E1AFD1;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.about-us {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #E1AFD1;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.contact-us {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #E1AFD1;
+    font-size: 20px;
+    margin-left: 30px;
+}
