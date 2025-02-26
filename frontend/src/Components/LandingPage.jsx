@@ -11,7 +11,7 @@ import arrowImg from '../Images/arrow.png';
 
 const LandingPage = () => {
 
-    const faqData = [
+    const faqs = [
         {
             question: "What is Medivita?",
             answer: "Medivita is a healthcare platform that provides a convenient and affordable way to manage your health. With Medivita, you can order medicines online, consult with doctors remotely, manage your prescriptions, set reminders, and track your health all in one place."
@@ -34,22 +34,16 @@ const LandingPage = () => {
         }
     ];
 
-    const [activeIndex, setActiveIndex] = useState(null);
-    const [showMore, setShowMore] = useState(false);
+    const [openIndex, setOpenIndex] = useState(null);
 
-    const toggleAnswer = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
+    const toggleFAQ = (index) => {
+      setOpenIndex(openIndex === index ? null : index);
     };
-
-    const toggleShowMore = () => {
-        setShowMore(!showMore);
-    };
-
-    const visibleFaqs = showMore ? faqData : faqData.slice(0,5);
 
     return(
         <div className="landing-page">
             <br />
+            {/* Navbar */}
             <div className='navbar'>
                 <img src={logo} alt='logo-image' className='logo-img'/>
                 <p className='web-name'>Medivita</p>
@@ -60,6 +54,8 @@ const LandingPage = () => {
                     <button className='contact-us'>Contact Us</button>
                 </div>
             </div>
+
+            {/* Body */}
             <div className='home-grid'>
                 <div className='grid-item'>
                     <img src={homeImg} alt='home-image' className='home-img' />
@@ -93,26 +89,31 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className='faq-container'>
-                <p className='faq-heading'>Frequently Asked Questions</p>
-                {visibleFaqs.map((faq, index) => (
+            
+            {/* FAQ Section */}
+            <div className="faq-container">
+                <h1 className="faq-header">Frequently Asked Questions</h1>
+                <br />
+                <div className="faq-list">
+                    {faqs.map((faq, index) => (
                     <div key={index} className="faq-item">
-                    <div className="faq-question" onClick={() => toggleAnswer(index)}>
-                        <p>{faq.question}</p>
-                        <i className={`faq-toggle-icon ${activeIndex === index ? 'fas fa-chevron-up' : 'fas fa-chevron-down'}`}></i>
-                    </div>
-                    {activeIndex === index && (
-                        <div className="faq-answer">
-                        <p>{faq.answer}</p>
+                        <div
+                        className={`faq-question ${openIndex === index ? 'open' : ''}`}
+                        onClick={() => toggleFAQ(index)}
+                        aria-expanded={openIndex === index}
+                        aria-controls={`faq-answer-${index}`}
+                        >
+                        {faq.question}
+                        <span className="faq-icon">{openIndex === index ? '-' : '+'}</span>
                         </div>
-                    )}
+                        {openIndex === index && (
+                        <div id={`faq-answer-${index}`} className="faq-answer">
+                            {faq.answer}
+                        </div>
+                        )}
                     </div>
-                ))}
-                {faqData.length > 5 && (
-                    <button className="faq-show-more" onClick={toggleShowMore}>
-                    {showMore ? 'Show Less' : 'Show More'}
-                    </button>
-                )}
+                    ))}
+                </div>
             </div>
         </div>
     );
