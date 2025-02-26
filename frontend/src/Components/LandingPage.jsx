@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './Styles/LandingPage.css';
-import logo from '../Images/logo.png';
 import homeImg from '../Images/ldpg-img.png';
 import heart from '../Images/heart.png';
 import partner1 from '../Images/partner1.png';
@@ -8,6 +7,7 @@ import partner2 from '../Images/partner2.png';
 import partner3 from '../Images/partner3.png';
 import partner4 from '../Images/partner4.png';
 import arrowImg from '../Images/arrow.png';
+import Navbar from './Navbar.jsx';
 
 const LandingPage = () => {
 
@@ -42,18 +42,7 @@ const LandingPage = () => {
 
     return(
         <div className="landing-page">
-            <br />
-            {/* Navbar */}
-            <div className='navbar'>
-                <img src={logo} alt='logo-image' className='logo-img'/>
-                <p className='web-name'>Medivita</p>
-                <div>
-                    <button className='sign-in'>Sign in</button>
-                    <button className='sign-up'>Sign up</button>
-                    <button className='about-us'>About Us</button>
-                    <button className='contact-us'>Contact Us</button>
-                </div>
-            </div>
+            <Navbar />
 
             {/* Body */}
             <div className='home-grid'>

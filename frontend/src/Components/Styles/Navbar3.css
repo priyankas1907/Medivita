@@ -1,0 +1,44 @@
+.nav-bar{
+    height: 60px;
+    width: 96%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+    font-family: serif;
+}
+
+.logo{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:5px;
+}
+
+.medivita{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.logo-img{
+    margin-left: 20px;
+}
+
+.nav-menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu button{
+    background-color: #E1AFD1;
+    border: none;
+    height: 40px;
+    width: 125px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
