@@ -3,6 +3,11 @@
     height: 100vh;
 }
 
+body {
+    background-color: #9B86BD; 
+    height: 100vh; 
+}
+
 .navbar {
     height: 60px;
     width: 96%;
@@ -10,6 +15,7 @@
     border-radius: 50px;
     display: flex;
     margin: 0 25px;
+    font-family: serif;
 }
 
 .logo-img {
@@ -20,7 +26,7 @@
 }
 
 .web-name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: serif;
     font-size: 30px;
     margin-top: 10px;
     padding-left: 10px;
@@ -30,38 +36,161 @@
     height: 40px;
     width: 120px;
     border-radius: 20px;
-    margin-top: 10px;
     background-color: #E1AFD1;
     font-size: 20px;
     margin-left: 650px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+    font-family: serif; 
 }
 
 .sign-up {
     height: 40px;
     width: 120px;
     border-radius: 20px;
-    margin-top: 10px;
     background-color: #E1AFD1;
     font-size: 20px;
     margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+    font-family: serif;
 }
 
 .about-us {
     height: 40px;
     width: 120px;
     border-radius: 20px;
-    margin-top: 10px;
     background-color: #E1AFD1;
     font-size: 20px;
     margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+    font-family: serif;
 }
 
 .contact-us {
     height: 40px;
     width: 120px;
     border-radius: 20px;
-    margin-top: 10px;
     background-color: #E1AFD1;
     font-size: 20px;
     margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+    font-family: serif;
 }
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 720px 450px 1fr;
+    grid-template-rows: 280px 450px;
+}
+
+.home-img {
+    height: 700px;
+    width: 650px;
+}
+
+.quote-1 {
+    font-size: 65px;
+    font-family: serif;
+}
+
+.heart-img {
+    margin-top: 25px;
+}
+
+.grid-item:nth-child(1) {
+    grid-row: span 2;
+}
+
+.grid-item:nth-child(4) {
+    grid-column: span 2;
+}
+
+.quote-2 {
+    font-size: 35px;
+    font-family: serif;
+}
+
+.arrow-img {
+    margin-left: 400px;
+}
+
+.start-btn {
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: #E1AFD1;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: serif;
+    border: 0;
+}
+
+h2 {
+    font-family: serif;
+}
+
+.faq-container {
+    background-color: white;
+    height: 660px;
+    width: 60%;
+    margin: 0 300px;
+}
+
+.faq-heading{
+    font-size: 40px;
+    font-family: serif;
+    text-align: center;
+    padding-top: 20px;
+} 
+  
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-top:30px;
+}
+  
+.faq-question {
+    cursor: pointer;
+    display: flex;                    
+    justify-content: space-between;  
+    align-items: center;              
+    width: 70%;                      
+    font-family:cursive;
+    font-size:18px;
+    padding-left: 20px;
+}
+  
+  
+.faq-toggle-icon {
+    font-size: 18px;                  
+    margin-left: 19px;                
+    transition: transform 0.3s ease;  
+}
+  
+.faq-answer {
+    padding: 10px;
+    background-color: #f9f9f9;
+    color:grey;
+}
+  
+.faq-toggle-icon:hover {
+    transform: scale(1.2);            
+}
+  
+.faq-show-more {
+    display: block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
