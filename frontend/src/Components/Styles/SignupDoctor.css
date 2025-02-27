@@ -26,7 +26,7 @@ input {
     margin-left: 150px;
     height: 35px;
     width: 400px;
-    border-radius: 15px;
+    border-radius: 20px;
     padding-left: 10px;
 }
 
@@ -34,9 +34,10 @@ input {
     background-color: #E1AFD1;
     border: none;
     height: 40px;
-    width: 125px;
+    width: 415px;
     border-radius: 50px;
     margin-top: 10px;
     font-size: 16px;
     cursor: pointer;
+    margin-left: 27px;
 }
