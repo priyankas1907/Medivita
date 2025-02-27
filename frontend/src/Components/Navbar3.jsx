@@ -14,7 +14,8 @@ const Navbar3 = () => {
                 </div>
                 <div className="nav-menu">
                     <button>Home</button>
-                    <button>My Account</button>
+                    <button>Sign in</button>
+                    <button>Sign up</button>
                     <button>About Us</button>
                     <button>Contact Us</button>
                 </div>
