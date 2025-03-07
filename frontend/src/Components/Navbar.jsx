@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "./Styles/Navbar.css"; 
 import logo from '../Images/logo.png';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,10 +14,10 @@ const Navbar = () => {
                     <p className='medivita'>Medivita</p>
                 </div>
                 <div className="nav-menu">
-                    <button>Sign in</button>
-                    <button>Sign up</button>
-                    <button>About Us</button>
-                    <button>Contact Us</button>
+                    <Link to='/Signin'><button>Sign in</button></Link>
+                    <Link to='/Signup'><button>Sign up</button></Link>
+                    <Link to='/about'><button>About Us</button></Link>
+                    <Link to='/Contactus'><button>Contact Us</button></Link>
                 </div>
             </div>
     </nav>
