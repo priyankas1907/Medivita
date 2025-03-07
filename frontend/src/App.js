@@ -6,6 +6,8 @@ import Signup from './Components/Signup.jsx';
 import SignupDoctor from './Components/SignupDoctor.jsx';
 import SignupMedSeller from './Components/SignupMedSeller.jsx';
 import SignupUser from './Components/SignupUser.jsx';
+import Signin from './Components/Signin.jsx';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="/SignupDoctor" element={<SignupDoctor />} />
         <Route path="/SignupMedSeller" element={<SignupMedSeller />} />
         <Route path="/SignupUser" element={<SignupUser />} />
+        <Route path="/signin" element={<Signin />} />
       </Routes>
     </Router>
   );
