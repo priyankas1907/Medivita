@@ -15,12 +15,13 @@
     display: flex;
     justify-content: space-evenly;
     margin-top:5px;
+    margin-left: -15px;
 }
 
 .medivita{
     font-size: 35px;
     margin-top: 5px;
-    margin-right: 25px;
+    margin-left: -25px;
 }
 
 .logo-img{
@@ -30,7 +31,8 @@
 .nav-menu{
     width: 800px;
     display: flex;
-    justify-content: space-evenly;
+    gap: 20px;
+    margin-right: 20px;
 }
 
 .nav-menu button{
