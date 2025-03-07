@@ -22,8 +22,8 @@ const Aboutus = () => {
                 </div>
             </div>
 
-            <div className="whymedivita">
-                <p>Why Medivita?</p>
+            <div >
+                <p className="whymedivita">Why Medivita?</p>
             </div>
 
             <div className="feature-container">
@@ -46,3 +46,4 @@ const Aboutus = () => {
 };
 
 export default Aboutus;
+
