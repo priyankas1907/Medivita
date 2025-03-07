@@ -4,12 +4,12 @@ import aboutusimg from '../Images/aboutusimage 2.png'
 import chatbotImg from '../Images/aboutai.png'
 import doctorsImg from '../Images/aboutcontactdoc.png'
 import educationImg from '../Images/aboutedu.png'
-import Navbar from './Navbar';
+import Navbar3 from './Navbar3.jsx';
 
 const Aboutus = () => {
     return (
         <div className="landing-page">
-            <Navbar />
+            <Navbar3 />
 
             <div className="about-container">
                 <div className="about-content">

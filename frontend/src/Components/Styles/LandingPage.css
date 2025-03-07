@@ -23,6 +23,7 @@ body {
 .quote-1 {
     font-size: 65px;
     font-family: serif;
+    margin-left: 0;
 }
 
 .heart-img {
@@ -40,6 +41,7 @@ body {
 .quote-2 {
     font-size: 35px;
     font-family: serif;
+    margin-left: 0;
 }
 
 .arrow-img {
