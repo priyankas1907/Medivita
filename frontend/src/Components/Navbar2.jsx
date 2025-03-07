@@ -13,7 +13,7 @@ const Navbar2 = () => {
                     <img src={logo} alt="Medivita-logo" className='logo-img' ></img>
                     <p className='medivita'>Medivita</p>
                 </div>
-                <div className="nav-menu">
+                <div className="nav-menu2">
                     <Link to='/'><button>Home</button></Link>
                     <Link to='/'><button>My Account</button></Link>
                     <Link to='/about'><button>About Us</button></Link>

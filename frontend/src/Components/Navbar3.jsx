@@ -13,7 +13,7 @@ const Navbar3 = () => {
                     <img src={logo} alt="Medivita-logo" className='logo-img' ></img>
                     <p className='medivita'>Medivita</p>
                 </div>
-                <div className="nav-menu">
+                <div className="nav-menu3">
                 {/* <Link to='/'><button>Home</button></Link>
                     <button>Sign in</button>
                     <button>Sign up</button>

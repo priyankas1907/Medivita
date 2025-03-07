@@ -28,13 +28,13 @@
     margin-left: 20px;
 }
 
-.nav-menu{
+.navmenu {
     width: 600px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav-menu button{
+.navmenu button {
     background-color: #E1AFD1;
     border: none;
     height: 40px;
