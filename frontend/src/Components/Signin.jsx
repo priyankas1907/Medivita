@@ -19,9 +19,9 @@ const Signin = () => {
                         <option>Medicine Seller</option>
                     </select>
                     <p>Your Phone No.</p>
-                    <input type='tel' placeholder='Enter your phone number' />
+                    <input type='tel' placeholder='Enter your phone number' className='input-field'/>
                     <p>Password</p>
-                    <input type='password' placeholder='Enter strong password' /><br /><br/>
+                    <input type='password' placeholder='Enter strong password' className='input-field'/><br /><br/>
                     <a href="#" className="forgot-password">Forgot password?</a>
                     <br /><br/>
                     <center><button className='continue-btn'>Continue</button></center>

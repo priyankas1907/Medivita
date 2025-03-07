@@ -14,11 +14,11 @@ const SignupMedSeller = () => {
                 <div className='Account-section'>
                     <center><h1>Sign Up</h1></center>
                     <p>Your Name</p>
-                    <input type='text' placeholder='Enter your name' />
+                    <input type='text' placeholder='Enter your name' className='input-field'/>
                     <p>Your Phone No.</p>
-                    <input type='tel' placeholder='Enter your phone number' />
+                    <input type='tel' placeholder='Enter your phone number' className='input-field'/>
                     <p>Password</p>
-                    <input type='password' placeholder='Enter strong password' />
+                    <input type='password' placeholder='Enter strong password' className='input-field'/>
                     <p>Confirm Password</p>
                     <input type='password' placeholder='Enter your password again' /><br /><br />
                     <center><button className='signup-btn'>Sign Up</button></center>

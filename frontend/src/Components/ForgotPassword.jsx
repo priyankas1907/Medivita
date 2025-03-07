@@ -16,7 +16,7 @@ const ForgotPassword = () => {
                     <br />
                     <p className="req-text">Please enter your email to reset the password</p>
                     <p>Your Email</p>
-                    <input type='text' placeholder='Enter your email' />
+                    <input type='text' placeholder='Enter your email' className='input-field'/>
                     <br /><br /><br />
                     <center><button className='reset-btn'>Reset Password</button></center>
                 </div>

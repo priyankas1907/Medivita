@@ -33,7 +33,7 @@ select{
     
 }
 
-input {
+.input-field {
     margin-left: 150px;
     height: 35px;
     width: 400px;
@@ -46,13 +46,10 @@ input {
     text-decoration: none;
 }
 
-
-
 .continue-btn {
     background-color: #E1AFD1;
     border: none;
     height: 40px;
-    /* width: 125px; */
     width:415px;
     margin-left:27px;
     border-radius: 50px;

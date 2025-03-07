@@ -16,9 +16,9 @@ const ResetPassword = () => {
                     <br />
                     <p className="req-text">Create a new password. Ensure it differs from previous ones for security</p>
                     <p>Password</p>
-                    <input type='password' placeholder='Enter your new password' />
+                    <input type='password' placeholder='Enter your new password' className='input-field'/>
                     <p>Confirm Password</p>
-                    <input type='password' placeholder='Re-enter the new password' />
+                    <input type='password' placeholder='Re-enter the new password' className='input-field'/>
                     <br /><br /><br />
                     <center><button className='update-btn'>Update Password</button></center>
                 </div>
