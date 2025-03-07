@@ -7,7 +7,8 @@ import SignupDoctor from './Components/SignupDoctor.jsx';
 import SignupMedSeller from './Components/SignupMedSeller.jsx';
 import SignupUser from './Components/SignupUser.jsx';
 import Signin from './Components/Signin.jsx';
-
+import ForgotPassword from './Components/ForgotPassword.jsx';
+import ResetPassword from './Components/ResetPassword.jsx';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path="/SignupMedSeller" element={<SignupMedSeller />} />
         <Route path="/SignupUser" element={<SignupUser />} />
         <Route path="/signin" element={<Signin />} />
+        <Route path="/ForgotPassword" element={<ForgotPassword />} />
+        <Route path="/ResetPassword" element={<ResetPassword />} />
       </Routes>
     </Router>
   );
