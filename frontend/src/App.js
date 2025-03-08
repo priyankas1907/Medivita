@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import HomePage from './Components/HomePage.jsx';
 import LandingPage from './Components/LandingPage.jsx';
 import Aboutus from './Components/Aboutus.jsx'
 import Signup from './Components/Signup.jsx';
@@ -14,9 +15,10 @@ import Footer from './Components/Footer.jsx';
 import Contactus from './Components/Contactus.jsx';
 
 function App() {
-  return (
+  return ( 
     <Router>
       <Routes>
+        <Route path="/home" element={<HomePage />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<Aboutus />} />
         <Route path="/Signup" element={<Signup />} />
