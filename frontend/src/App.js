@@ -10,6 +10,8 @@ import Signin from './Components/Signin.jsx';
 import ForgotPassword from './Components/ForgotPassword.jsx';
 import ResetPassword from './Components/ResetPassword.jsx';
 import OTPverify from './Components/OTPverify.jsx';
+import Footer from './Components/Footer.jsx';
+import Contactus from './Components/Contactus.jsx';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/ResetPassword" element={<ResetPassword />} />
         <Route path="/OTPverify" element={<OTPverify />} />
+        <Route path="/footer" element={<Footer />} />
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
     </Router>
   );
