@@ -1,0 +1,158 @@
+*{
+    font-family: "Poppins",serif;
+}
+
+.home-page{
+    margin: 0;
+    height: 100vh;
+    background-color: #9B86BD;
+}
+
+.nav-bar{
+    height: 60px;
+    width: 96%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 25px;
+}
+
+.logo{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:5px;
+}
+
+.medivita{
+    font-size: 35px;
+    margin-top: 0px;
+    margin-right: 25px;
+}
+
+.logo-img{
+    margin-left: 20px;
+}
+
+.nav-menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu button{
+    background-color: #E1AFD1;
+    border: none;
+    height: 40px;
+    width: 125px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.main-page{
+    height: 500px;
+    width: 90%;
+    background-color: white;
+    margin-left: 65px;
+    margin-top: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-page-content{
+    height: 500px;
+    width: 500px;
+}
+
+.inner-container{
+    height: 150px;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.main-page-image{
+    height: 600px;
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.care-btn{
+    height: 40px;
+    width: 150px;
+    background-color: #5A639C;
+    border: none;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+.inner-container1{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    background-color: #9B86BD;
+}
+
+.section2{
+    height:350px;
+    width: 100%;
+    background-color: #9B86BD;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section2 img{
+    margin-left: 100px;
+    margin-top:20px;
+}
+
+.inner-section2{
+    height: 500px;
+    width: 650px;
+}
+
+.section3{
+    height:350px;
+    width: 100%;
+    background-color: #9B86BD;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section3 img{
+    margin-top:20px;
+    margin-right: 50px;
+}
+
+.inner-section3{
+    height: 500px;
+    width: 650px;
+    margin-left: 80px;
+}
+
+
+.container1{
+    height: 500px;
+    width: 100%;
+    background-color: #9B86BD;
+    margin-top: 250px;
+    padding-top: 30px;
+}
