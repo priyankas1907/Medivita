@@ -3,65 +3,116 @@
     height: 100vh;
 }
 
-.navbar {
-    height: 60px;
-    width: 96%;
+body {
+    background-color: #9B86BD; 
+    height: 100vh; 
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 720px 450px 1fr;
+    grid-template-rows: 280px 450px;
+}
+
+.home-img {
+    height: 700px;
+    width: 650px;
+}
+
+.quote-1 {
+    font-size: 65px;
+    font-family: serif;
+    margin-left: 0;
+}
+
+.heart-img {
+    margin-top: 25px;
+}
+
+.grid-item:nth-child(1) {
+    grid-row: span 2;
+}
+
+.grid-item:nth-child(4) {
+    grid-column: span 2;
+}
+
+.quote-2 {
+    font-size: 35px;
+    font-family: serif;
+    margin-left: 0;
+}
+
+.arrow-img {
+    margin-left: 400px;
+}
+
+.start-btn {
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: #E1AFD1;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: serif;
+    border: 0;
+}
+
+.start-btn:hover {
+    color: black;
+    background-color: #FFE6E6;
+}
+
+h2 {
+    font-family: serif;
+}
+
+.faq-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:  serif;
+    text-align: center;
     background-color: white;
-    border-radius: 50px;
-    display: flex;
-    margin: 0 25px;
 }
-
-.logo-img {
-    height: 50px;
-    width: 50px;
-    margin-left: 35px;
-    margin-top: 5px;
-}
-
-.web-name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+.faq-header {
     font-size: 30px;
-    margin-top: 10px;
-    padding-left: 10px;
+    margin-bottom: 10px;
 }
-
-.sign-in {
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
-    margin-top: 10px;
-    background-color: #E1AFD1;
-    font-size: 20px;
-    margin-left: 650px;
+  
+.faq-list {
+    margin-bottom: 30px;
 }
-
-.sign-up {
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
-    margin-top: 10px;
-    background-color: #E1AFD1;
-    font-size: 20px;
-    margin-left: 30px;
+  
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
 }
-
-.about-us {
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
-    margin-top: 10px;
-    background-color: #E1AFD1;
+  
+.faq-question {
     font-size: 20px;
-    margin-left: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.contact-us {
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
+  
+.faq-question:hover {
+    color: #5A639C;
+}
+  
+.faq-question.open {
+    color: #5A639C;
+}
+  
+.faq-answer {
     margin-top: 10px;
-    background-color: #E1AFD1;
+    text-align: left;
+}
+  
+.faq-icon {
     font-size: 20px;
-    margin-left: 30px;
 }

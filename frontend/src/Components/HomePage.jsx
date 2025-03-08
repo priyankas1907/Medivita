@@ -70,24 +70,21 @@ const HomePage = () => {
                 <div className="section2">
                     <img src={homepageimg1} alt="home page image1" height={300} width={500}></img>
                     <div className="inner-section2">
-                        <h2 style={{ marginLeft: '150px', color: 'white' }}>Consult Doctor</h2>
-                        <h4 style={{ marginLeft: '65px', color: '#E1AFD1' }}>Consult Top Doctors From Anywhere, Anytime</h4>
-                        <h3>1. Expert Medical Advice at Your Fingertips from Renowned
-                            Specialists and Doctors.<br></br>
-                            2.Consult Top Doctors from Anywhere, Anytime, and Get
-                            Personalized Medical Guidance.</h3>
-                        <button className='care-btn' style={{ width: '240px',marginLeft:'160px' }}>Book an Appointment</button>
+                        <h2 style={{ marginLeft: '150px', color: 'white' }}>Remainders</h2>
+                        <h4 style={{ marginLeft: '65px', color: '#E1AFD1' }}>Never Miss a Dose with Timely Reminders</h4>
+                        <h3>1.Set Personalized Alerts for Your Daily Medications.<br></br>
+                            2.Manage Your Health More Efficiently with Scheduled Notifications.</h3>
+                        <button className='care-btn' style={{ width: '240px',marginLeft:'160px' }}>Make a Reminder</button>
                     </div>
                 </div>
                 <div className="section3">
                     <div className="inner-section3">
-                        <h2 style={{ marginLeft: '150px', color: 'white' }}> Delivery</h2>
-                        <h4 style={{ marginLeft: '65px', color: '#E1AFD1' }}>Get Your Meds Delivered Right To Your Door</h4>
-                        <h3>1.  Fast, Reliable, and Convenient Delivery of Medications
-                            Right to Your Doorstep.<br></br>
-                            2. Get Your Medications Delivered Quickly and
-                            Efficiently with Our Logistics Partners.</h3>
-                        <button className='care-btn' style={{ marginLeft:'200px' }}>Order Now</button>
+                        <h2 style={{ marginLeft: '150px', color: 'white' }}>Awareness</h2>
+                        <h4 style={{ marginLeft: '65px', color: '#E1AFD1' }}>Stay Informed, Stay Healthy</h4>
+                        <h3>1.  Access the Latest Health Tips and News.
+                             Learn About Preventive Care and Healthy Living.<br></br>
+                            2. Be Aware of Seasonal Health Concerns and Safety Measures.</h3>
+                        <button className='care-btn' style={{ marginLeft:'200px' }}>Know More</button>
                     </div>
                     <img src={homepageimg2} alt="home page image 2" height={300} width={500} ></img>
                 </div>

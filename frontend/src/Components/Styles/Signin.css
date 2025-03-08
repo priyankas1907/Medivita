@@ -1,0 +1,74 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 25px;
+    border-radius: 50px;
+    font-family: serif;
+}
+
+.doctor-img {
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+select{
+    margin-left:150px;
+    height:40px;
+    width:418px;
+    border-radius:20px;
+    padding-left:10px;
+    border:2px solid black;
+    
+}
+
+.input-field {
+    margin-left: 150px;
+    height: 35px;
+    width: 400px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.forgot-password{
+    margin-left:450px;
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.continue-btn {
+    background-color: #E1AFD1;
+    border: none;
+    height: 40px;
+    width:415px;
+    margin-left:27px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.continue-btn:hover {
+    color: black;
+    background-color: #FFE6E6;
+}
+
+.signup-text {
+    margin-left:225px;
+   
+}
+
+.signup-text a {
+    color: #6c63ff;
+    text-decoration: none;
+}
