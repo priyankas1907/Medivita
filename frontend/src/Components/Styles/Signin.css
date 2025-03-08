@@ -57,6 +57,12 @@ select{
     font-size: 16px;
     cursor: pointer;
 }
+
+.continue-btn:hover {
+    color: black;
+    background-color: #FFE6E6;
+}
+
 .signup-text {
     margin-left:225px;
    

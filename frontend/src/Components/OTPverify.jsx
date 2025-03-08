@@ -18,12 +18,12 @@ const OTPverify = () => {
                     <p className="req-text">We sent a reset link to contact@dscode...com enter 5 digit code that mentioned in the email</p>
                     <br />
                     <div className="input-container">
-                        <input type="text" maxLength="1" className='input-field' />
-                        <input type="text" maxLength="1" className='input-field' />
-                        <input type="text" maxLength="1" className='input-field' />
-                        <input type="text" maxLength="1" className='input-field' />
-                        <input type="text" maxLength="1" className='input-field' />
-                        <input type="text" maxLength="1" className='input-field' />
+                        <input type="text" maxLength="1" className='input-field-otp' />
+                        <input type="text" maxLength="1" className='input-field-otp' />
+                        <input type="text" maxLength="1" className='input-field-otp' />
+                        <input type="text" maxLength="1" className='input-field-otp' />
+                        <input type="text" maxLength="1" className='input-field-otp' />
+                        <input type="text" maxLength="1" className='input-field-otp' />
                     </div>
                     <br /><br />
                     <center><button className='OTPverify-btn'>Verify Code</button></center>

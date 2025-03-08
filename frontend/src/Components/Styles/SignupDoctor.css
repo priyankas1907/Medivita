@@ -41,3 +41,8 @@ p {
     cursor: pointer;
     margin-left: 27px;
 }
+
+.signup-btn:hover {
+    color: black;
+    background-color: #FFE6E6;
+}

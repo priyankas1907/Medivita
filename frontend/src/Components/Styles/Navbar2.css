@@ -44,3 +44,8 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+.nav-menu2 button:hover {
+    color: black;
+    background-color: #FFE6E6;
+}
